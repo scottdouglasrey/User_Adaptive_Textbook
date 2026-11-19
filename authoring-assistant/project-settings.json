@@ -1,0 +1,48 @@
+{
+  "configuration_version": "0.1",
+  "status": "proposed_for_institutional_review",
+  "project": {
+    "id": null,
+    "title": null,
+    "phase": "planning",
+    "intended_use": "course_specific_oer",
+    "course_profiles": [],
+    "audience": {"prior_knowledge": null, "language_needs": [], "known_misconceptions": []},
+    "author_profile": {"tone": "clear_and_supportive", "depth": null, "sample_approved": false},
+    "roadmap": {"units": [], "schedule_required": false, "activities_required": false, "assessment_mapping_required": false},
+    "frameworks": {"selected": [], "selection_status": "discuss_with_author"},
+    "license": {"identifier": null, "approved_by": null},
+    "decisions": [],
+    "qa_findings": []
+  },
+  "institutional_defaults": {
+    "institution": "Brigham Young University-Idaho",
+    "reference_guide": "frameworks-and-sources.md",
+    "mission_and_learning_model": "authoritative_recommendations",
+    "faith_integration": "discuss_with_author",
+    "official_outcome_text": "immutable_source_record",
+    "textbook_coverage": "faculty_defined_with_documented_scope_choices",
+    "source_conflicts": "discuss_and_record",
+    "accessibility_target": "WCAG_2_2_AA",
+    "accessibility_target_status": "proposed_product_target_confirm_institutional_requirements",
+    "udl": "design_guidance",
+    "source_updates": "notify_and_review_before_adoption"
+  },
+  "interaction_defaults": {
+    "questions_per_turn": 1,
+    "framework_options_per_decision": 2,
+    "learning_model_review": "planning_and_review_milestones",
+    "audio": "offer_section_level",
+    "retrieval": "recommend_attempt_before_reveal",
+    "pagination": "context_dependent",
+    "mandatory_checkpoints": false,
+    "analytics": "disabled_until_institutionally_configured"
+  },
+  "operations": {
+    "integration_status": {"catalog": "not_configured", "kuali": "not_configured", "library": "not_configured", "edtech_books": "discover_tools_at_runtime"},
+    "allow_writes_without_task_authorization": false,
+    "publication_requires_explicit_authorization": true,
+    "live_capabilities_must_be_verified": true,
+    "release_policy": "not_yet_configured"
+  }
+}

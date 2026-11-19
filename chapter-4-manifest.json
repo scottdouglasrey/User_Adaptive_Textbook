@@ -1,0 +1,61 @@
+{
+  "source_url": "https://commodity-marketing-textbook.ces-chatgpt-2736.chatgpt.site/#4/2",
+  "captured_date": "2026-11-05",
+  "author": "Jeremy Slade",
+  "source_sha256": "4ee73213d6c629295de3118e427ba9e4e340179877615af929bca5b41f43f916",
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Introduction",
+      "blocks": 6
+    },
+    {
+      "id": "4.1",
+      "title": "4.1: Sources of Agricultural Market Information",
+      "blocks": 20
+    },
+    {
+      "id": "4.2",
+      "title": "4.2: Interpreting USDA Reports and Immediate Market Reaction",
+      "blocks": 66
+    },
+    {
+      "id": "4.3",
+      "title": "4.3: Seasonality and Historical Price Tendencies",
+      "blocks": 34
+    },
+    {
+      "id": "4.4",
+      "title": "4.4: Forecasts, Uncertainty, and the Limits of Prediction",
+      "blocks": 40
+    },
+    {
+      "id": "4.5",
+      "title": "4.5: Behavioral Biases in Agricultural Marketing",
+      "blocks": 58
+    },
+    {
+      "id": "4.6",
+      "title": "4.6: Separating Information from Noise",
+      "blocks": 26
+    },
+    {
+      "id": "4.7",
+      "title": "4.7: Building an Information Routine for Consistent Decisions",
+      "blocks": 43
+    },
+    {
+      "id": "wrap",
+      "title": "Wrapping Up",
+      "blocks": 5
+    }
+  ],
+  "normalization": [
+    "Removed source pagination and running interface elements.",
+    "Joined two sentences interrupted by page breaks.",
+    "Reassembled split signal/noise and decision-filter tables; source image text was transcribed into table cells.",
+    "Normalized whitespace and line-break hyphenation."
+  ],
+  "scope": "Chapter reading body, objectives, examples, tables, key terms, takeaways, and original activity link. Collapsed course-information frontmatter and platform features are not imported.",
+  "adaptation": "Section 4.2 has 24 narrative passages in three prepared voices; seven selected narrative passages elsewhere also have three voices. All other source blocks remain unchanged. Analogies, elaborations, worked-example support, and practice are supplemental and require instructor review before teaching use."
+}

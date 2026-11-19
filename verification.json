@@ -1,0 +1,80 @@
+{
+  "date": "2026-11-06",
+  "environment": "In-app browser, local standalone HTML served on 127.0.0.1",
+  "source_structure": {
+    "sections": 9,
+    "source_blocks": 298,
+    "blocks_by_section": {
+      "intro": 6,
+      "4.1": 20,
+      "4.2": 66,
+      "4.3": 34,
+      "4.4": 40,
+      "4.5": 58,
+      "4.6": 26,
+      "4.7": 43,
+      "wrap": 5
+    }
+  },
+  "checks": [
+    {
+      "name": "Every section under all four presentation presets",
+      "views": 36,
+      "result": "passed",
+      "evidence": "Source block count and order matched original view. All fixed block text matched original-view text. No mismatches."
+    },
+    {
+      "name": "Comparison views",
+      "views": 9,
+      "result": "passed",
+      "evidence": "All source blocks remained present. Each available comparison's original passage matched its original-view paragraph."
+    },
+    {
+      "name": "Section 4.2 gaming preset",
+      "result": "passed",
+      "evidence": "Gaming analogy and challenge practice appeared. Original inventory example retained 8.0 billion, 8.4 billion, and 400 million bushels."
+    },
+    {
+      "name": "Guided and challenge feedback",
+      "result": "passed",
+      "evidence": "Incorrect and correct challenge responses produced different feedback. Guided hint and correct numerical-answer feedback appeared."
+    },
+    {
+      "name": "Persistence",
+      "result": "passed",
+      "evidence": "Temporary note and marked-read state survived reload, along with the selected analogy. Test note and marked-read state were then cleared through the UI."
+    },
+    {
+      "name": "Desktop layout",
+      "viewport": "1280 \u00d7 720",
+      "result": "passed",
+      "evidence": "Three-column layout and controls visually inspected. An initially malformed dropdown option was repaired and verified."
+    },
+    {
+      "name": "Phone layout",
+      "viewport": "390 \u00d7 844",
+      "result": "passed",
+      "evidence": "Document width equaled viewport width. Personalize panel opened at 340 px and closed. Section dropdown navigated to 4.6; restored tables had four and five rows respectively. Viewport override reset afterward."
+    }
+  ],
+  "limits": [
+    "Preservation checks compare the rendered prototype to its stored normalized capture; they do not independently verify every transcription against the live site.",
+    "Prepared narrative variants and supplemental teaching material require subject-expert semantic review.",
+    "These checks establish interface behavior and source preservation, not learning effectiveness.",
+    "Notes export, print output, external activity, and all individual custom marker combinations were not separately exercised."
+  ],
+  "expanded_demo": {
+    "narrative_passages_4_2": 24,
+    "fixed_source_blocks_4_2": 42,
+    "voices": 3,
+    "checks": [
+      "All 36 section/preset combinations retained the 298 source blocks in order with no fixed-text mismatches.",
+      "All 24 original columns in the section 4.2 comparison matched the original view.",
+      "Presentation steps produced original, adapted, then highlighted comparison views; restart returned to the first step.",
+      "Unit-conversion exercise rejected 40 and accepted 400; step-by-step explanation opened.",
+      "Reading position remained at the same source heading after preference changes and reload (approximately 11 px initial drift).",
+      "Phone layout at 390 \u00d7 844 had document width 390 px; tour and personalization controls worked."
+    ],
+    "review_status": "Prepared authoring examples, pending subject-expert semantic review."
+  }
+}
