@@ -2,9 +2,11 @@
 
 A prototype and authoring workflow for adapting textbook presentation to reader preferences while preserving the instructional content.
 
-## Live prototype
+## Try the live prototype
 
-The current demonstration is hosted at [BYUICourseDev](https://scottdouglasrey.github.io/BYUICourseDev/?present=1#4.2). The project source in this repository is being organized from the authoring files used for that prototype.
+[Open the adaptive textbook demonstration](https://scottdouglasrey.github.io/BYUICourseDev/?present=1#4.2)
+
+The current demonstration is hosted in the [BYUICourseDev repository](https://github.com/scottdouglasrey/BYUICourseDev). The source files for the prototype and authoring workflow are collected in this repository.
 
 ## Methodology
 
